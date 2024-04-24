@@ -1,16 +1,23 @@
-### Hi there 👋
+```js
+import SoftwareDeveloper from 'thejoepage';
 
-<!--
-**wheredoescodecomefrom/wheredoescodecomefrom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Bio extends SoftwareDeveloper {
+  name     = 'Joe Page';
+  title    = 'Software Engineer';
+  company  = 'Anywhere Remote | For Hire';
+  location = 'Nevada';
+  website  = 'thejoe.page';
+}
 
-Here are some ideas to get you started:
+class Skills extends SoftwareDeveloper {
+  languages  = ['JavaScript', 'TypeScript', 'Python', 'C++', 'C#', 'Java'];
+  databases  = ['MySQL', 'MongoDB', 'PostgreSQL'];
+  frameworks = ['React', 'React Native', 'Angular', 'GraphQL', 'Django', 'Flask', 'CppCMS', '.NET Core', '.NET Framework 3.5-4.72'];
+  prefferedLang = 'JavaScript';
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Projects extends SoftwareDeveloper {
+  portfolio       = 'thejoepage';
+  badPacmanRemake = 'pacman.thejoe.page/';
+}
+```
