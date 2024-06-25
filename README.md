@@ -17,7 +17,7 @@ class Skills extends SoftwareDeveloper {
 }
 
 class Projects extends SoftwareDeveloper {
-  portfolio       = 'thejoepage';
-  badPacmanRemake = 'pacman.thejoe.page/';
+  portfolio       = 'thejoe.page';
+  aiDeveloperChat = 'chat.thejoe.page';
 }
 ```
